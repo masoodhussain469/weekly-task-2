@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin:0 40px;;
+    padding: 30px 20px;
+    padding-top: 20px;
+    background-color: bisque;
+}
+ul li{
+    list-style:none;
+    display: inline-block;
+    padding: 0 30px;
+    font-family: sans-serif;
+}
+li:hover{
+    cursor: pointer;
+    text-decoration:underline;
+    background-color: pink;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+
+}
+.home-section{
+    background-image: url(hotbottom.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.Text{
+    text-align: center;
+    padding: 50px 0;
+}
+p{
+    margin-top: 20px;
+}
+.button-section{
+    padding-top: 50px;
+    height: 100px;
+    background-color:pink;
+    display: flex;
+   justify-content: space-between;
+}
+.button-section button{
+    background-color: rgb(255, 0, 98);
+    margin:0 15px;
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+}
+.middle-section{
+   margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+   
+    margin: 50px;
+}
+.heading{
+    background-color: grey;
+    /* margin: 20px 30px; */
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    width:500px;
+    height: 400px;
+}
+.text-2{
+    margin-top: 30px;
+    color: white;
+}
+.text-3{
+    margin: 20px;
+    color: red;
+}
+.para-2{
+    margin-right: 30px;
+    
+}
+.btn-1{
+    background-color: rgba(248, 61, 61, 0.972);
+    width: 150px;
+    height:40px ;
+    border-radius: 10px;
+}
+button:hover{
+    cursor:pointer;
+    text-decoration: underline blueviolet;
+    color: cornflowerblue;
+}
